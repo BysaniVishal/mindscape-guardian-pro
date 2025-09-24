@@ -57,6 +57,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        stress: {
+          low: "hsl(var(--stress-low))",
+          medium: "hsl(var(--stress-medium))",
+          high: "hsl(var(--stress-high))",
+        },
+        academic: {
+          primary: "hsl(var(--academic-primary))",
+          secondary: "hsl(var(--academic-secondary))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
